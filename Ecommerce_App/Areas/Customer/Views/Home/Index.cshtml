@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Ecommerce_App.Models.Product>
+
+
+<input type="text" id="searchBox" placeholder="Search products..." class="form-control col-2 mb-4" />
+
+
+<div id ="cardContainer"class="row">
+
+
+
+    @foreach (var product in Model)
+    {
+        <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card h-100 border-primary product-card">
+                <img src="@product.ImageUrl" class="card-img-top rounded" alt="@product.Title" />
+                <div class="product-info">
+                    <div class="left">
+                        <h5>@product.Title</h5>
+                        by @product.Author
+                    </div>
+                   <div class="right">
+                        @if (!string.IsNullOrWhiteSpace(product.Description))
+                        {
+                            <p>@product.Description</p>
+                        }
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title" style="color:#2c3e50">@product.Title</h5>
+                    <p class="text-primary  mb-1">by <b>@product.Author</b></p
+                    <p class="mb-1">
+                        List Price:
+                        <strike><b>$@product.ListedPrice.ToString("0.00")</b></strike>
+                    </p>
+                    <p style="color:maroon" class="mb-0">
+                        As low as: <b>$@product.Price100.ToString("0.00")</b>
+                    </p>
+                </div>
+                <div class="card-footer bg-transparent border-top-0 ">
+                    <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-primary  btn-primary w-100">
+                        Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts{
+    <script src = "/js/Search.js">
+
+    </script>
+}
+ 
+@section Styles{
+    <link rel="stylesheet" href="~/css/HomePageHover.css" />
+}

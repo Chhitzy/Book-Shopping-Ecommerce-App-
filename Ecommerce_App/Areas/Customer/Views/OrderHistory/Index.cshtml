@@ -1,0 +1,27 @@
+﻿<div class="row">
+	<div class="col-9">
+		<h1 class="text-primary">Order History</h1>
+	</div>
+	<div class="col-3">
+		<a asp-controller="OrderHistory" asp-action="NavigateToHelpAndSupport" class="btn form-control btn-outline-info"><i class="bi bi-chat-left-text"></i>Contact Support</a>
+	</div>
+</div>
+
+<div class=" container-rounded-border p-4 m-4">
+	<table id="tblData" class="table table-bordered table-striped table-hover">
+		<thead>
+			<tr>
+				<th>Order Date</th>
+				<th>Shipping Date</th>
+				<th>Order Total</th>
+				<th>Tracking Number</th>
+				<th>Phone Number</th>
+				
+			</tr>
+		</thead>
+	</table>
+</div>
+
+@section Scripts {
+	<script src="~/js/OrderHistory.js"></script>
+}

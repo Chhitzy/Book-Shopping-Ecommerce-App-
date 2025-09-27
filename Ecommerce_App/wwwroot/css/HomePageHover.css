@@ -1,0 +1,28 @@
+﻿.product-card {
+    position: relative; /* still needed for the hover trigger */
+    overflow: visible; /* let child content overflow outside */
+}
+
+/* Floating info box */
+.product-info {
+    position: absolute;
+    top: 100%; /* place just below the card */
+    left: 0;
+    width: 300px; /* fixed width or match card */
+    background: rgba(255, 255, 255, 0.95);
+    padding: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(10px); /* little slide effect */
+    z-index: 999;
+}
+
+/* Show when hovering card */
+.product-card:hover .product-info {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}

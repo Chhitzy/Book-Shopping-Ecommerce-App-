@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Ecommerce_App.Models.OrderHeader>
+@{
+    ViewData["Title"] = "Refund / Cancellation";
+}
+
+<h3>Refund / Cancellation</h3>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">@TempData["Message"]</div>
+}
+
+<table class="table table-bordered" >
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Date</th>
+            <th>Total</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.orderDate.ToShortDateString()</td>
+                <td>$@order.OrderTotal</td>
+                <td>@order.OrderStatus</td>
+                <td>
+                    <form asp-action="ApplyRefund" method="post">
+                        <input type="hidden" name="id" value="@order.Id" />
+                        <button type="submit" class="btn btn-danger">Cancel & Refund</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>Note: Orders can only be refunded within 24 hours of placing.</p>

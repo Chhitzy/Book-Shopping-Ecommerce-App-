@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Ecommerce_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|c:\\ecommerce_app\\ecommerce_app\\areas\\customer\\views\\returnrefund\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|solutionrelative:ecommerce_app\\areas\\customer\\views\\returnrefund\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|c:\\ecommerce_app\\ecommerce_app\\areas\\customer\\controllers\\returnrefundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|solutionrelative:ecommerce_app\\areas\\customer\\controllers\\returnrefundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|c:\\ecommerce_app\\ecommerce_app\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|solutionrelative:ecommerce_app\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|c:\\ecommerce_app\\ecommerce_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|solutionrelative:ecommerce_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB6423E0-C491-4651-B134-C6F5D01BC811}|Ecommerce.Utility\\Ecommerce_App.Utility.csproj|c:\\ecommerce_app\\ecommerce.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB6423E0-C491-4651-B134-C6F5D01BC811}|Ecommerce.Utility\\Ecommerce_App.Utility.csproj|solutionrelative:ecommerce.utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|c:\\ecommerce_app\\ecommerce_app\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A83174D5-7CC9-43A8-8DC4-6F4458C3647D}|Ecommerce_App\\Ecommerce_App.csproj|solutionrelative:ecommerce_app\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0DFB48E-6A0C-4F58-AFCD-C8E276A1F50F}|Ecommerce_App.DataAccess\\Ecommerce_App.DataAccess.csproj|c:\\ecommerce_app\\ecommerce_app.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0DFB48E-6A0C-4F58-AFCD-C8E276A1F50F}|Ecommerce_App.DataAccess\\Ecommerce_App.DataAccess.csproj|solutionrelative:ecommerce_app.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Ecommerce_App\\Ecommerce_App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce_App\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Ecommerce_App\\Ecommerce_App\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Ecommerce_App\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T08:00:14.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Ecommerce_App\\Ecommerce_App\\Areas\\Customer\\Views\\ReturnRefund\\Index.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce_App\\Areas\\Customer\\Views\\ReturnRefund\\Index.cshtml",
+              "ToolTip": "C:\\Ecommerce_App\\Ecommerce_App\\Areas\\Customer\\Views\\ReturnRefund\\Index.cshtml",
+              "RelativeToolTip": "Ecommerce_App\\Areas\\Customer\\Views\\ReturnRefund\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T07:54:32.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Ecommerce_App\\Ecommerce.Utility\\SD.cs",
+              "RelativeDocumentMoniker": "Ecommerce.Utility\\SD.cs",
+              "ToolTip": "C:\\Ecommerce_App\\Ecommerce.Utility\\SD.cs",
+              "RelativeToolTip": "Ecommerce.Utility\\SD.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAwEQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:48:08.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReturnRefundController.cs",
+              "DocumentMoniker": "C:\\Ecommerce_App\\Ecommerce_App\\Areas\\Customer\\Controllers\\ReturnRefundController.cs",
+              "RelativeDocumentMoniker": "Ecommerce_App\\Areas\\Customer\\Controllers\\ReturnRefundController.cs",
+              "ToolTip": "C:\\Ecommerce_App\\Ecommerce_App\\Areas\\Customer\\Controllers\\ReturnRefundController.cs",
+              "RelativeToolTip": "Ecommerce_App\\Areas\\Customer\\Controllers\\ReturnRefundController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwDwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:36:47.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "C:\\Ecommerce_App\\Ecommerce_App\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "Ecommerce_App\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ToolTip": "C:\\Ecommerce_App\\Ecommerce_App\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "Ecommerce_App\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-20T06:01:59.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Ecommerce_App\\Ecommerce_App\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Ecommerce_App\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Ecommerce_App\\Ecommerce_App\\Areas\\Customer\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Ecommerce_App\\Areas\\Customer\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAcwKoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:08:56.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Ecommerce_App\\Ecommerce_App.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Ecommerce_App.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Ecommerce_App\\Ecommerce_App.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Ecommerce_App.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-10T16:13:36.699Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
