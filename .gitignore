@@ -29,6 +29,7 @@ project.fragment.lock.json
 artifacts/
 appsettings.json
 appsettings.Development.json
+Program.cs
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
