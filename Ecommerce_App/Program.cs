@@ -35,8 +35,8 @@ builder.Services.AddIdentity<IdentityUser,IdentityRole>(options => options.SignI
 builder.Services.AddScoped<ISP_CALL, SP_CALL>();
 builder.Services.AddAuthentication().AddGoogle(options =>
 {
-    options.ClientId = "77178392500-83snsmhlptsaf8ea72plqvfkv5tmg3a8.apps.googleusercontent.com";
-    options.ClientSecret = "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";
+    options.ClientId = "";
+    options.ClientSecret = "";
 });
 builder.Services.AddAuthorization();
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("StripeSettings"));
